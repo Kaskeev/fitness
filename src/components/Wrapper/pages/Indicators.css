@@ -1,0 +1,11 @@
+.selectInd{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px #fff solid;
+}
+.selectDrop{
+    width: 280px;
+}
+.dropdownSelect{
+    width: 100%;
+}

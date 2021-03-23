@@ -1,0 +1,7 @@
+.target{
+    margin-top: 40px;
+}
+.genderChoice{
+    flex-direction: column;
+    margin-bottom: 30px;
+}

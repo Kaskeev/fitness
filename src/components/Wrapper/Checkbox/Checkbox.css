@@ -1,0 +1,68 @@
+.containerLabel{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input{
+    width: 28px;
+    height: 28px;  
+    opacity: 0.1;
+    border: 2px solid #FFFFFF;
+}
+.containerLabel p{
+    margin-left: 40px;
+    padding-top: 8px;
+}
+.containerLabel input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #868484;
+    background-color: #141414;  
+    border-radius: 50%;
+  }
+  .containerLabel:hover input ~ .checkmark {
+    background-color: #141414;  
+  }
+  .containerLabel input:checked ~ .checkmark {
+    background-color: #141414;  
+    border: 2px solid #F79633;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .containerLabel input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .containerLabel .checkmark:after {
+      top: 6.5px;
+      left: 7px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #F79633;
+  }
+  @media (max-width: 768px) {
+    .genderChoice{
+      min-width: 150px;
+      margin-left: 0;
+      justify-content: space-around;
+    }
+  }

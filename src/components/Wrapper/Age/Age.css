@@ -1,0 +1,26 @@
+.ageGender{
+    display: flex;
+}
+.genderCheck{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.inputAge{
+    margin-top: 10px;
+    min-width: 250px;
+    background-color: #141414;  
+}
+.genderCheck{
+  padding-top: 35px;
+  min-width: 250px;
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+  @media (max-width: 768px) {
+    .ageGender{
+        display: flex;
+        flex-direction: column;
+    }
+  }

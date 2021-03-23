@@ -1,0 +1,60 @@
+.growthWeight{
+    display: flex;
+}
+.inputGrowth, .inputWeight{
+    min-width: 250px;
+}
+.weight{
+    margin-left: 20px;
+}
+.flexBlock{
+    display: flex;
+}
+.imgQuest{
+    margin-top: 17px;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+}
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    min-width: 150px;
+    background-color: #F79633;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  @media (max-width: 768px) {
+    .inputGrowth, .inputWeight{
+        min-width: 200px;
+    }
+  }
+  @media (max-width: 480px) {
+    .inputGrowth, .inputWeight{
+        min-width: 200px;
+    }
+    .growthWeight{
+        display: flex;
+        flex-direction: column;
+    }
+    .weight{
+        margin-left: 0px;
+    }
+    .tooltip .tooltiptext {
+        top: 15px;
+        left: -150px;
+    }
+  }

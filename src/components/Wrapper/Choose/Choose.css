@@ -1,0 +1,45 @@
+.choose{
+    margin-top: 40px;
+
+}
+.buttonChoose{
+    width: 172.2px;
+    height: 48px;
+    border: 1px solid #F79633;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #141414;
+    border-radius: 0px 0px 0px 0px;
+    outline:none;
+    cursor: pointer;
+}
+.chooseLink{
+    display: flex;
+    border-radius: 10px;
+}
+.buttonFirst{
+    border-radius: 10px 0 0 10px;
+}
+.buttonThird{
+    border-radius: 0px 10px 10px 0px;
+}
+.buttonChoose:focus{
+    background-color: #F79633;
+    color: #141414;
+}
+ @media (max-width: 768px) {
+    .buttonChoose{
+        width: 140px;
+    }
+  }
+ @media (max-width: 480px) {
+    .buttonChoose{
+        width: 107px;
+        font-size: 12px;
+    }
+  }

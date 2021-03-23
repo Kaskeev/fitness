@@ -1,0 +1,31 @@
+.button{
+    min-width: 240px;
+    min-height: 44px;
+    background: #F79633;
+    border-radius: 6px;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 32px;
+    margin-left: 28%;
+    margin-bottom: 10%;
+    border: none;
+    outline:none;
+    transition: 0.7s all ease-in-out;
+}
+.button:hover{
+    background: #141414;
+    color: #fff;
+    border: 2px solid #F79633;
+}
+@media (max-width: 768px) {
+    .button{
+       margin-left: 20%;
+    }
+  }
+@media (max-width: 480px) {
+    .button{
+       margin-left: 13%;
+    }
+  }
