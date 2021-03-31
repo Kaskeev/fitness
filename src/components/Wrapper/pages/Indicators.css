@@ -1,11 +1,30 @@
-.selectInd{
-    margin-top: 40px;
-    padding-bottom: 20px;
-    border-bottom: 2px #fff solid;
+.selectInd {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px #fff solid;
 }
-.selectDrop{
-    width: 280px;
+
+.dropdownSelect {
+  max-width: 50%;
 }
-.dropdownSelect{
-    width: 100%;
+
+.option {
+  cursor: pointer;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 16px;
+  border-bottom: 2px solid white;
+}
+
+@media (max-width: 480px) {
+  .option {
+    font-size: 10px;
+  }
+
+  .dropdownSelect {
+    max-width: 80%;
+  }
+
 }

@@ -1,7 +1,5 @@
 import React from 'react';
-import DataClient from "../DataClient/DataClient";
 import CoachClient from "../CoachClient/CoachClient";
-import Contact from "../Contact/Contact";
 import Age from "../Age/Age";
 
 import Button from "../Button/Button";
@@ -13,9 +11,6 @@ export default function Client() {
     return (
         <div>
           <CoachClient/>
-          <Contact/>
-          <Age/>
-          <DataClient/>
         </div>
     )
 }

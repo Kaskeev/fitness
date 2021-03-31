@@ -32,6 +32,13 @@
     background-color: #F79633;
     color: #141414;
 }
+/* .input-field {
+    display: flex;
+    align-items: center;
+}
+.input-field > label {
+    margin-right: 20px;
+} */
  @media (max-width: 768px) {
     .buttonChoose{
         width: 140px;
